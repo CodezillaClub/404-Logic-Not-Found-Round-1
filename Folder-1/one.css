@@ -1,0 +1,32 @@
+/* Chessboard Container */
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px); /* Incorrect sizing */
+    grid-template-rows: repeat(8, 60px);
+    border: 3px solid white; /* Border too thin */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Chess Squares */
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; /* Smaller font size */
+    font-weight: normal; /* Weight not bold */
+    transition: transform 0.3s ease;
+}
+
+/* Chess Board Colors */
+.light {
+    background-color: #e6e6e6; /* Colors too light */
+}
+
+.dark {
+    background-color: #333333; /* Colors too dark */
+}
+
+/* Hover Effect */
+.square:hover {
+    transform: scale(1.05); /* Subtle effect */
+}

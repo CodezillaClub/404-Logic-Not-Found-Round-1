@@ -1,0 +1,21 @@
+.bounce {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .bounce div {
+        width: 15px;
+        height: 15px;
+        background-color: #ff5733;
+        border-radius: 50%;
+        animation: bounce 1.5s infinite ease-in-out;
+    }
+    
+    .bounce div:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+    
+    .bounce div:nth-child(3) {
+        animation-delay: 0.4s;
+    }
+    
