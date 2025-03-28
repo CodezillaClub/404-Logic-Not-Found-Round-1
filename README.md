@@ -20,4 +20,10 @@ Each folder includes fragmented HTML/CSS code and a README with the expected out
 3. Extract the ZIP file to your local machine.
 4. Open the extracted folder in your code editor (e.g., VS Code).
 
+
+## Grace Points as per the folders 
+- Folder 1 -> +3 Points
+- Folder 2 -> No grace Points
+- Folder 3 -> +5 Points
+
 Now you're ready to begin fixing the code in your chosen folder! 🚀
